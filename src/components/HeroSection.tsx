@@ -12,6 +12,9 @@ const HeroSection = () => {
           </p>
           <button className="btn-primary flex justify-center items-center text-surface-50 bg-gradient-to-r from-primary-200 to-primary-300 rounded-xl py-3 px-8  font-bold text-lg hover:scale-95 transition-transform duration-500 ease-in-out bg-[#1678fb] text-typography-offLight">
             Explore More
+            <svg className="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
           </button>
         </div>
       </section>

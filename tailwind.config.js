@@ -20,9 +20,9 @@ export default {
           lightDark: '#797979'
         },
         brandColor: {
-          light: '#F472B6',  // Light pink
+          light: '#1678FB',  // Light pink
           DEFAULT: '#EC4899', // Default pink
-          dark: '#DB2777',   // Dark pink
+          dark: '#1a56db',   // Dark pink
         },
         customGreen: '#10B981', // Custom green color
       },
