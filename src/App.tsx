@@ -7,6 +7,7 @@ import ContactUs from "./pages/ContactUs";
 import Login from "./pages/Login";
 import Error404 from "./pages/Error404";
 import Signup from "./pages/Signup";
+import MainFooter from "./components/MainFooter";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
+      <MainFooter/>
     </div>
   );
 }
