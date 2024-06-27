@@ -1,7 +1,10 @@
+import HeroSection from '../components/HeroSection'
+import MissionAndVision from '../components/MissionAndVision';
 const Home = () => {
   return (
     <>
-      <h1>Home</h1>
+      <HeroSection/>
+      <MissionAndVision/>
     </>
   );
 };
