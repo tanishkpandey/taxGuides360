@@ -7,6 +7,7 @@ import Login from "./pages/Login";
 import Error404 from "./pages/Error404";
 import Signup from "./pages/Signup";
 import MainFooter from "./components/MainFooter";
+import Faq from "./pages/Faq";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/faq" element={<Faq />} />
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
