@@ -11,9 +11,9 @@ const Home = () => {
       <HeroSection/>
       <MissionAndVision/>
       <Stats/>
+      <OurTeam/>
       <Services/>
       <Testimonial/>
-      <OurTeam/>
       <CallToAction/> 
     </>
   );

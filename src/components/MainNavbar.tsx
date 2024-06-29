@@ -14,7 +14,7 @@ const MainNavbar = () => {
 
   return (
     <div>
-      <nav className=" container bg-white border-gray-200 z-30 rounded-lg mt-3 drop-shadow-md">
+      <nav className=" bg-white border-gray-200 z-30 shadow drop-shadow-md">
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto p-4">
           <a href="https://flowbite.com" className="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
@@ -53,7 +53,7 @@ const MainNavbar = () => {
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
                   </svg>
                 </button>
-                <div id="mega-menu-dropdown-mobile" className={`md:hidden ${isMegaMenuOpen ? 'block' : 'hidden'} w-full text-sm bg-white border border-gray-100 rounded-lg shadow-md `}>
+                <div id="mega-menu-dropdown-mobile" className={`md:hidden ${isMegaMenuOpen ? 'block' : 'hidden'} w-full text-sm bg-white border border-gray-100 rounded-lg  `}>
                   <div className="p-4 pb-0 text-gray-900 md:pb-4 ">
                     <ul className="space-y-4" aria-labelledby="mega-menu-dropdown-button-mobile">
                       <li>
@@ -135,7 +135,7 @@ const MainNavbar = () => {
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
                   </svg>
                 </button>
-                <div id="mega-menu-dropdown-mobile" className={`md:hidden ${isMegaMenuOpen ? 'block' : 'hidden'} w-full text-sm bg-white border border-gray-100 rounded-lg shadow-md `}>
+                <div id="mega-menu-dropdown-mobile" className={`md:hidden ${isMegaMenuOpen ? 'block' : 'hidden'} w-full text-sm bg-white border border-gray-100 rounded-lg  `}>
                   <div className="p-4 pb-0 text-gray-900 md:pb-4 ">
                     <ul className="space-y-4" aria-labelledby="mega-menu-dropdown-button-mobile">
                       <li>
@@ -217,7 +217,7 @@ const MainNavbar = () => {
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
                   </svg>
                 </button>
-                <div id="mega-menu-dropdown-mobile" className={`md:hidden ${isMegaMenuOpen ? 'block' : 'hidden'} w-full text-sm bg-white border border-gray-100 rounded-lg shadow-md `}>
+                <div id="mega-menu-dropdown-mobile" className={`md:hidden ${isMegaMenuOpen ? 'block' : 'hidden'} w-full text-sm bg-white border border-gray-100 rounded-lg  `}>
                   <div className="p-4 pb-0 text-gray-900 md:pb-4 ">
                     <ul className="space-y-4" aria-labelledby="mega-menu-dropdown-button-mobile">
                       <li>
@@ -307,7 +307,7 @@ const MainNavbar = () => {
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
                   </svg>
                 </button>
-                <div id="mega-menu-dropdown" className={`absolute z-30 grid ${isMegaMenuOpen ? 'grid' : 'hidden'} w-auto grid-cols-2 text-sm bg-white border border-gray-100 rounded-lg shadow-md  md:grid-cols-3 `}>
+                <div id="mega-menu-dropdown" className={`absolute z-30 grid ${isMegaMenuOpen ? 'grid' : 'hidden'} w-auto grid-cols-2 text-sm bg-white border border-gray-100 rounded-lg   md:grid-cols-3 `}>
                   <div className="p-4 pb-0 text-gray-900 md:pb-4 ">
                     <ul className="space-y-4" aria-labelledby="mega-menu-dropdown-button">
                       <li>
@@ -389,7 +389,7 @@ const MainNavbar = () => {
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
                   </svg>
                 </button>
-                <div id="mega-menu-dropdown-mobile" className={`md:hidden ${isMegaMenuOpen ? 'block' : 'hidden'} w-full text-sm bg-white border border-gray-100 rounded-lg shadow-md `}>
+                <div id="mega-menu-dropdown-mobile" className={`md:hidden ${isMegaMenuOpen ? 'block' : 'hidden'} w-full text-sm bg-white border border-gray-100 rounded-lg`}>
                   <div className="p-4 pb-0 text-gray-900 md:pb-4 ">
                     <ul className="space-y-4" aria-labelledby="mega-menu-dropdown-button-mobile">
                       <li>
@@ -471,7 +471,7 @@ const MainNavbar = () => {
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
                   </svg>
                 </button>
-                <div id="mega-menu-dropdown-mobile" className={`md:hidden ${isMegaMenuOpen ? 'block' : 'hidden'} w-full text-sm bg-white border border-gray-100 rounded-lg shadow-md `}>
+                <div id="mega-menu-dropdown-mobile" className={`md:hidden ${isMegaMenuOpen ? 'block' : 'hidden'} w-full text-sm bg-white border border-gray-100 rounded-lg  `}>
                   <div className="p-4 pb-0 text-gray-900 md:pb-4 ">
                     <ul className="space-y-4" aria-labelledby="mega-menu-dropdown-button-mobile">
                       <li>

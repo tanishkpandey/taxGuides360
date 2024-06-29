@@ -1,7 +1,7 @@
 const MainFooter = () => {
     return(
 <footer>
-    <div className=" bg-[#ffffff] mx-auto w-full p-4 py-6 lg:py-8">
+    <div className=" bg-[#ffffff] mx-auto w-full p-4 py-6 lg:py-8 border-t-2">
         <div className="md:flex md:justify-between container">
           <div className="mb-6 md:mb-0">
               <a href="https://flowbite.com/" className="flex items-center">
