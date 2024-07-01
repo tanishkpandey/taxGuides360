@@ -14,11 +14,11 @@ import TaxConsultantServices from "./pages/TaxConsultantServices";
 import Tds from "./pages/Tds";
 import Faq from "./pages/Faq";
 import Dashboard from "./pages/Dashboard/Dashboard";
-import NewsUpdates from "./pages/Dashboard/NewsUpdates";
+import News from "./pages/News";
 
 function App() {
   const location = useLocation();
-  const showNavbarFooter = !['/login', '/dashboard'].includes(location.pathname);
+  const showNavbarFooter = !['/login', '/dashboard', '/dashboard/news-updates', '/dashboard/inbox', '/dashboard/logout'].includes(location.pathname);
 
   return (
     <div>
@@ -35,7 +35,8 @@ function App() {
         <Route path="/itr" element={<Itr />} />
         <Route path="/taxconsultant" element={<TaxConsultantServices />} />
         <Route path="/tds" element={<Tds />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/dashboard/*" element={<Dashboard />} />
+        <Route path ="/news" element={<News/>} />
         <Route path="*" element={<Error404 />} />
       </Routes>
       {showNavbarFooter && <MainFooter />}

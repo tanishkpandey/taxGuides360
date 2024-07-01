@@ -3,7 +3,7 @@ const NewsUpdates = () => {
         <>
         <section className="bg-white dark:bg-gray-900 h-screen">
   <div className="py-8 px-4 mx-auto max-w-2xl lg:py-16">
-      <h2 className="mb-4 text-3xl font-bold text-gray-900 dark:text-white mb-8">Add a new NEWS</h2>
+      <h2 className="mb-4 text-3xl font-bold text-gray-900 dark:text-white mb-8">Add a NEWS Update</h2>
       <form action="#">
           <div className="grid gap-4 sm:grid-cols-2 sm:gap-6">
               <div className="sm:col-span-2">
