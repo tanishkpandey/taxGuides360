@@ -18,7 +18,7 @@ import News from "./pages/News";
 
 function App() {
   const location = useLocation();
-  const showNavbarFooter = !['/login', '/dashboard', '/dashboard/news-updates', '/dashboard/inbox', '/dashboard/logout'].includes(location.pathname);
+  const showNavbarFooter = !['/login', '/dashboard', '/dashboard/news-updates', '/dashboard/slide-show', '/dashboard/logout'].includes(location.pathname);
 
   return (
     <div>

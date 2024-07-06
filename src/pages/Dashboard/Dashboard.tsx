@@ -1,8 +1,8 @@
 import { Routes, Route, Link } from "react-router-dom";
 import NewsUpdates from "./NewsUpdates";
-import Inbox from "./Inbox";
+import SlideshowUpload from "./SlideshowUpload";
 
-const Dashboard = () => {
+const Dashboard: React.FC = () => {
   return (
     <>
       <button
@@ -10,7 +10,7 @@ const Dashboard = () => {
         data-drawer-toggle="default-sidebar"
         aria-controls="default-sidebar"
         type="button"
-        className="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        className="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
       >
         <span className="sr-only">Open sidebar</span>
         <svg
@@ -30,7 +30,7 @@ const Dashboard = () => {
 
       <aside
         id="default-sidebar"
-        className="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
+        className="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full lg:translate-x-0"
         aria-label="Sidebar"
       >
         <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
@@ -55,7 +55,7 @@ const Dashboard = () => {
             </li>
             <li>
               <Link
-                to="inbox"
+                to="slide-show"
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
                 <svg
@@ -67,7 +67,7 @@ const Dashboard = () => {
                 >
                   <path d="m17.418 3.623-.018-.008a6.713 6.713 0 0 0-2.4-.569V2h1a1 1 0 1 0 0-2h-2a1 1 0 0 0-1 1v2H9.89A6.977 6.977 0 0 1 12 8v5h-2V8A5 5 0 1 0 0 8v6a1 1 0 0 0 1 1h8v4a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-4h6a1 1 0 0 0 1-1V8a5 5 0 0 0-2.582-4.377ZM6 12H4a1 1 0 0 1 0-2h2a1 1 0 0 1 0 2Z" />
                 </svg>
-                <span className="flex-1 ms-3 whitespace-nowrap">Inbox</span>
+                <span className="flex-1 ms-3 whitespace-nowrap">Slide Show</span>
               </Link>
             </li>
             <li>
@@ -97,14 +97,14 @@ const Dashboard = () => {
         </div>
       </aside>
 
-      <section className="bg-white dark:bg-gray-900 h-screen">
-        <div className="py-8 px-4 mx-auto max-w-2xl lg:py-16">
+      <div className="p-4 sm:ml-64">
+        <div className="p-4 rounded-lg bg-white dark:bg-gray-900 min-h-screen">
           <Routes>
             <Route path="news-updates" element={<NewsUpdates />} />
-            <Route path="inbox" element={<Inbox />} />
+            <Route path="slide-show" element={<SlideshowUpload />} />
           </Routes>
         </div>
-      </section>
+      </div>
     </>
   );
 };
