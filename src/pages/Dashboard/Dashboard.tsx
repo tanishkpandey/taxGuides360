@@ -97,14 +97,15 @@ const Dashboard: React.FC = () => {
         </div>
       </aside>
 
-      <div className="p-4 sm:ml-64">
-        <div className="p-4 rounded-lg bg-white dark:bg-gray-900 min-h-screen">
+      <div className=" sm:ml-64">
+        <div className=" rounded-lg bg-white dark:bg-gray-900 min-h-screen">
           <Routes>
             <Route path="news-updates" element={<NewsUpdates />} />
             <Route path="slide-show" element={<SlideshowUpload />} />
           </Routes>
         </div>
       </div>
+      
     </>
   );
 };

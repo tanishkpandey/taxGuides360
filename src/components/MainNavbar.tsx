@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const MainNavbar = () => {
   const [isMegaMenuOpen, setIsMegaMenuOpen] = useState(false);
@@ -16,10 +17,10 @@ const MainNavbar = () => {
     <div>
       <nav className=" bg-white border-gray-200 z-30 shadow drop-shadow-md">
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto p-4">
-          <a href="https://flowbite.com" className="flex items-center space-x-3 rtl:space-x-reverse">
+        <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap ">TaxGuides360</span>
-          </a>
+        </Link>
           <div className="flex items-center md:order-2 space-x-1 md:space-x-2 rtl:space-x-reverse">
             <a href="#" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5  focus:outline-none">Register</a>
             <button
@@ -39,7 +40,7 @@ const MainNavbar = () => {
           <div id="mobile-menu" className={`md:hidden ${isMobileMenuOpen ? 'block' : 'hidden'} w-full md:flex md:w-auto md:order-1`}>
             <ul className="flex flex-col mt-4 font-medium md:flex-row md:mt-0 md:space-x-8 rtl:space-x-reverse">
               <li>
-                <a href="#" className="block py-2 px-3 text-blue-600 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0" aria-current="page">Home</a>
+                <Link to="/"  className="block py-2 px-3 text-blue-600 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0" aria-current="page">Home</Link>
               </li>
 
               <li>
@@ -393,9 +394,9 @@ const MainNavbar = () => {
                   <div className="p-4 pb-0 text-gray-900 md:pb-4 ">
                     <ul className="space-y-4" aria-labelledby="mega-menu-dropdown-button-mobile">
                       <li>
-                        <a href="#" className="text-gray-500 z-30 hover:text-blue-600">
+                        <Link to="/about" className="text-gray-500 z-30 hover:text-blue-600">
                           About Us
-                        </a>
+                        </Link>
                       </li>
                       <li>
                         <a href="#" className="text-gray-500  hover:text-blue-600">
