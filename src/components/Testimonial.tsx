@@ -3,9 +3,9 @@ const Testimonial = () => {
       <>
         <section className="text-gray-600 body-font">
           <div className="container px-5 py-24 mx-auto">
-          <a href="#" className="inline-flex items-center px-4 py-2 text-sm font-medium text-typography-dark border border-gray-200 rounded-lg hover:bg-[#ffffff] hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700  mb-4">
+          <span className="inline-flex items-center px-4 py-2 text-sm font-medium text-typography-dark border border-gray-200 rounded-lg hover:bg-[#ffffff] hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700  mb-4 cursor-pointer">
           Testimonials
-            </a>
+            </span>
             <h1 className="title-font sm:text-4xl text-3xl mb-6 font-bold text-typography-dark">Customer Stories</h1>
             <div className="flex flex-wrap -m-4">
               <div className="p-4 md:w-1/2 w-full">

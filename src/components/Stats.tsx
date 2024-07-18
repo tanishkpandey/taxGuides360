@@ -1,13 +1,13 @@
 const Stats = () => {
     return (
       <>
-        <section className="text-gray-600 body-font">
+        <section className="text-gray-600 body-font bg-[#F2FFF7] ">
           <div className="container px-5 py-24 mx-auto flex flex-wrap">
             <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
               <div className="w-full sm:p-4 px-4 mb-6">
-              <a href="#" className="inline-flex items-center px-4 py-2 text-sm font-medium text-typography-dark border border-gray-200 rounded-lg hover:bg-[#ffffff] hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700  mb-4">
+              <span className="inline-flex items-center px-4 py-2 text-sm font-medium text-typography-dark border border-gray-200 rounded-lg hover:bg-[#F2FFF7] hover:text-[#197E37]  focus:z-10  focus:text-[#197E37] cursor-pointer mb-4">
               Performance
-            </a>
+            </span>
                 <h1 className="title-font sm:text-4xl text-3xl mb-6 font-bold text-typography-dark">
                 Achievements & Milestones
                 </h1>
